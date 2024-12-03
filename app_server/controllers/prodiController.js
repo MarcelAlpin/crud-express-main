@@ -5,7 +5,7 @@ const index = async (req, res) => {
   try {
     // Mendapatkan data prodi dari API eksternal
     const response = await axios.get(
-      "https://crud-express-seven.vercel.app/api/prodi"
+      "https://crud-express-main.vercel.app/api/prodi"
     );
 
     // Data prodi dari API
